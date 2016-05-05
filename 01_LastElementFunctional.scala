@@ -13,7 +13,6 @@ def last[A](l:List[A]):A = l match {
     case _ :: tail => last(tail)
 }
 last(List('A','B','C','D','E'))
-
 /* 
 ======================
 Output from REPL - 
