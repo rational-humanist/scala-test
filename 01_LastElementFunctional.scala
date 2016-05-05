@@ -8,7 +8,6 @@ In an imperative language, there is going to be if-check to catch the end condit
 In this program, pattern matching identifies the end-condition versus the rest of the loops. 
 The program was executed on REPL on local desktop on IntelliJ IDEA 15.0.4
 */
-
 def last[A](l:List[A]):A = l match {
     case h :: Nil => h
     case _ :: tail => last(tail)
