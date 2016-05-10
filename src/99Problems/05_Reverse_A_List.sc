@@ -11,7 +11,7 @@ def reverse[A](l: List[A]): List[A] = l match {
 
 /*
 ****************************************
-Alternate approach in recursion: 
+Alternate approach in recursion: - I don't understand how the below code works. But I am putting it here for later discussion
 ****************************************
 */
 def reverse[A](l: List[A]): List[A] = {
@@ -25,7 +25,7 @@ def reverse[A](l: List[A]): List[A] = {
 
 /*
 ****************************************
-Alternate approach using foldLeft: 
+Alternate approach using foldLeft: - this is cute
 ****************************************
 */
 def reverse[A](ls: List[A]): List[A] =
