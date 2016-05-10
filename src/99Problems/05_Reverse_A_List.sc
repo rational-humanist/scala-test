@@ -28,3 +28,6 @@ def reverse[A](l: List[A]): List[A] = {
 Alternate approach using foldLeft: 
 ****************************************
 */
+def reverse[A](ls: List[A]): List[A] =
+ls.foldLeft(List[A]()) { (r, h) => h :: r }
+//reverse(List(1,2,3,4,5))
